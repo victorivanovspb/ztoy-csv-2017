@@ -41,7 +41,7 @@ function printArray($mass) {
     echo '</pre>';
 }
 
-$mass = loadMass('csv/file.csv');
+$mass = loadMass('../csv/file.csv');
 
 usort($mass, 'cmp');
 printArray($mass);
